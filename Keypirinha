@@ -1,0 +1,50 @@
+[app]
+launch_at_startup = yes
+hotkey_run = ctrl+win+K
+#hotkey_run = alt+win+D
+ignored_packages = Everything,WebSuggest,Winamp,Bookmarks
+
+[gui]
+geometry = active_monitor
+always_on_top = yes
+#escape_always_closes = yes
+hide_on_focus_lost = immediate
+show_on_taskbar = no
+theme = Tweed
+
+[theme/Tweed]
+opacity_back = 100
+satellite_show = never
+satellite_pos = topleft
+satellite_size = small
+control_margin = 4
+textbox_padding = 3
+listitem_padding = 1
+layout = list_icon,list_dialnum,list_selmark,list_actions
+color_background = #3b3f4c
+color_foreground = #ffffff
+color_title = #ffffff
+color_textbox_back = #3b3f4c
+color_faded = #ffffff
+color_status = #ffffff
+color_accent = #d3643b
+color_warn = #cf433e
+color_listitem_back = #3b3f4c
+color_listitem_title = #f8f8f0
+color_listitem_desc = #ffffff
+color_listitem_tips = #ffffff
+color_listitem_selected_back = #424655
+color_listitem_selected_title = #e7a84b
+color_listitem_selected_desc = #e7a84b
+color_listitem_selected_tips = #e7a84b
+font_large_size = 18
+font_large_style = bold
+font_snormal_size = 10
+font_snormal_style = cleartype
+font_normal_size = 12
+font_normal_style = cleartype
+font_small_size = 10
+font_small_style = cleartype
+font_face = Tahoma,Arial,Segoe UI
+compact_results = no
+listitem_title_font = snormal
